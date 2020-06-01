@@ -1,4 +1,84 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body{
+  font-family: Arial, Helvetica, sans-serif; /*to set the font of the complete body*/
+  background-color:white;
+  
+}
+
+.navbar{
+  overflow: hidden; /*to hide any part the goes into the boundary of the other tag*/
+  background-color: #333;
+  
+}
+
+.navbar a {
+  float: left; /*makes the things stick to left*/
+  font-size: 16px;
+  color: white;
+  text-align: center; /*aligns everything centrally*/
+  padding: 14px 16px; /*gives top-bottom,right-left space or padding*/
+  text-decoration: none; /* displays text normally without the underlines or anyother moderations*/
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;/*creates an outline above the border*/
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;/*inherits the properties of the parent body*/
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{ /*modifies the hover quality*/
+  background-color: #1ed91e;
+}
+.dropdown-content {
+  display: none;  /*doesnt displays any dropdown menu by defualt*/
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;  /*specifies the min width of the class elements*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*gives a shadow qulaity to the tag*/
+  z-index: 1;  /*it makes this thing to be displayed over other the higher the number higher the prefernce*/
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;/*this makes the elements in the tag appear in newline each*/
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.rightie {
+  float: right;
+}
+
+/*------------------topnavbar--------------------*/
 
 
 * {box-sizing: border-box}
@@ -11,7 +91,7 @@ hr{
 .box {
   padding: 16px;
 }
-input[type=text], input[type=password],input[type=email] {
+.box input[type=text], input[type=password],input[type=email] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
