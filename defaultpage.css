@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, Helvetica, sans-serif; /*to set the font of the complete body*/
+  background-image: url("back2.jpg");
+  
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{box-sizing: border-box;}
+
+  
+.container{
+    border: 1px solid white;
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    padding:15px 15px;
+    margin: 15px;
+    height: 950px;
+    width: 1250px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 10px 10px;
+    
+}
+
+H1 {display: inline;}
+

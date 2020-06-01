@@ -112,5 +112,35 @@ body{
   background-color: white;
   color: black;
   opacity: 0.8;
+  z-index: -1;
+}
+.part1{
+  z-index: 1;
+  background-color: #aeb0af;
+  padding: 10px 10px;
+}
+
+.part1 a{
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px 15px;
+  color: white;
+}
+
+.column1 {
+  float: left;
   
+  padding: 5px 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+#special1{
+  padding: 0px 25px;
 }
