@@ -1,0 +1,173 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /*to set the font of the complete body*/
+    background-color:white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("back2.jpg");
+  
+    height: 1100px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+    
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    color: white;
+    font-size: large;
+  }
+  
+  
+  .navbar{
+    overflow: hidden; /*to hide any part the goes into the boundary of the other tag*/
+    background-color: #333;
+    
+  }
+  
+  .navbar a {
+    float: left; /*makes the things stick to left*/
+    font-size: 16px;
+    color: white;
+    text-align: center; /*aligns everything centrally*/
+    padding: 14px 16px; /*gives top-bottom,right-left space or padding*/
+    text-decoration: none; /* displays text normally without the underlines or anyother moderations*/
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;/*creates an outline above the border*/
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;/*inherits the properties of the parent body*/
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn{ /*modifies the hover quality*/
+    background-color: #1ed91e;
+  }
+  .dropdown-content {
+    display: none;  /*doesnt displays any dropdown menu by defualt*/
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;  /*specifies the min width of the class elements*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*gives a shadow qulaity to the tag*/
+    z-index: 1;  /*it makes this thing to be displayed over other the higher the number higher the prefernce*/
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;/*this makes the elements in the tag appear in newline each*/
+  }
+  
+  .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  .rightie {
+    float: right;
+  }
+  
+  /*------------------topnavbar--------------------*/
+  
+  * {box-sizing: border-box}
+  .box1 {
+    padding: 16px;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+  }
+
+form {border: 3px solid #f1f1f1;
+    width: 1235px;
+    height: 879px;
+    
+}
+
+.box1 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+ button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+ button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container1 {
+  padding: 16px;
+}
+
+
+
+
+  .cancelbtn {
+     width: 100%;
+  }
